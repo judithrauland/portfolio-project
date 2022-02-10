@@ -1,6 +1,30 @@
-body {
-  background-color: beige;
+:root {
+  --light-colour: #f3f3f3;
+  --accent-colour: #00584e;
+  --accent-font: "Playfair Display", serif;
+  --general-font: "Roboto", sans-serif;
 }
-h1 {
+
+.body {
+  font-family: var(--general-font);
+}
+
+.hero {
+  background-color: var(--light-colour);
+  padding: 160px 20px;
   text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.btn-contact {
+  background-color: var(--accent-colour);
+  color: white;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 16px;
 }
