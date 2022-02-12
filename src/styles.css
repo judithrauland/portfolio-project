@@ -90,10 +90,32 @@ h3 {
   font-size: 16px;
 }
 
+#contact {
+  padding: 20px 0 0 0;
+}
+
 .contact-container {
   background-color: var(--light-color);
 }
 
 .contact-details {
   text-align: center;
+}
+
+.contact-details .social-links {
+  color: var(--accent-color);
+  padding: 10px;
+  font-size: 28px;
+  margin: 20px;
+}
+
+.footer-text {
+  margin: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: var(--accent-color);
 }
