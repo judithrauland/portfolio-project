@@ -1,8 +1,17 @@
 :root {
-  --light-colour: #f3f3f3;
-  --accent-colour: #46553e;
+  --light-color: #f3f3f3;
+  --accent-color: #46553e;
   --accent-font: "Playfair Display", serif;
   --general-font: "Roboto", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 15px;
 }
 
 h1,
@@ -22,7 +31,7 @@ p {
 }
 
 .hero {
-  background-color: var(--light-colour);
+  background-color: var(--light-color);
   text-align: center;
 }
 
@@ -33,7 +42,7 @@ h1 {
 }
 
 .btn-contact {
-  background-color: var(--accent-colour);
+  background-color: var(--accent-color);
   color: white;
   border-radius: 4px;
   padding: 15px 30px;
@@ -56,9 +65,9 @@ h3 {
 }
 .btn-project {
   background-color: white;
-  color: var(--accent-colour);
+  color: var(--accent-color);
   border-radius: 4px;
-  border-color: var(--accent-colour);
+  border-color: var(--accent-color);
   padding: 10px 25px;
   font-size: 16px;
 }
@@ -79,4 +88,12 @@ h3 {
 
 .about-section p {
   font-size: 16px;
+}
+
+.contact-container {
+  background-color: var(--light-color);
+}
+
+.contact-details {
+  text-align: center;
 }
