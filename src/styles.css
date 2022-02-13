@@ -77,6 +77,12 @@ h3 {
   .project-image {
     display: none;
   }
+  .project-buttons {
+    display: none;
+  }
+  .mobile-button {
+    display: block;
+  }
 }
 
 .about-section h1 {
@@ -99,16 +105,11 @@ h3 {
   background-color: var(--light-color);
 }
 
-.contact-details {
-  text-align: center;
-}
-
 footer .social-links a {
   color: var(--accent-color);
-  padding: 10px 15px;
+  padding: 0px 15px;
+  margin-bottom: 20px;
   font-size: 28px;
-  margin: 20px;
-  border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 
