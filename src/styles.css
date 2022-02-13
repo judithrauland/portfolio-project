@@ -1,5 +1,5 @@
 :root {
-  --light-color: #f3f3f3;
+  --light-color: #e6e6e6;
   --accent-color: #46553e;
   --accent-font: "Playfair Display", serif;
   --general-font: "Roboto", sans-serif;
@@ -103,11 +103,17 @@ h3 {
   text-align: center;
 }
 
-.contact-details .social-links {
+footer .social-links a {
   color: var(--accent-color);
-  padding: 10px;
+  padding: 10px 15px;
   font-size: 28px;
   margin: 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  opacity: 0.7;
 }
 
 .footer-text {
