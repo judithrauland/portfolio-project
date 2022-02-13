@@ -126,3 +126,17 @@ footer .social-links a:hover {
   text-decoration: none;
   color: var(--accent-color);
 }
+
+.img-fluid {
+  size: 50%;
+}
+
+.tools {
+  color: var(--accent-color);
+  font-size: 32px;
+  margin: 50px;
+}
+
+.tools .fab {
+  padding: 10px 10px;
+}
