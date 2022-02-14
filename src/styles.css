@@ -80,7 +80,10 @@ h3 {
   .project-buttons {
     display: none;
   }
-  .mobile-button {
+  h1 {
+    margin-top: 80px;
+  }
+  .btn-project {
     display: block;
   }
 }
