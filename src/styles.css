@@ -86,6 +86,9 @@ h3 {
   .btn-project {
     display: block;
   }
+  .work-container {
+    margin: none;
+  }
 }
 
 .about-section h1 {
@@ -143,4 +146,8 @@ footer .social-links a:hover {
 
 .tools .fab {
   padding: 10px 10px;
+}
+
+.work-container {
+  margin: 0 80px 0 80px;
 }
