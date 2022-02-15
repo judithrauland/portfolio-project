@@ -159,3 +159,8 @@ footer .social-links a:hover {
 .light-section {
   background-color: #ececec;
 }
+
+.about-text a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
