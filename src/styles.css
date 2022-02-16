@@ -164,3 +164,7 @@ footer .social-links a:hover {
   text-decoration: none;
   color: var(--accent-color);
 }
+
+.li {
+  font-family: var(--general-font);
+}
